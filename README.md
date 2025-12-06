@@ -45,6 +45,7 @@ cd simple_python_process_monitor
 ```
 
 2. Run it:
+
 **Windows**
 
 Open Comand Prompt (Admin):
