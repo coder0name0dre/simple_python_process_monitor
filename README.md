@@ -38,3 +38,34 @@ For best results, run with Administrator/root permissions so the script can read
 
 ## Usage
 
+1. Clone the repo:
+```
+git clone https://github.com/coder0name0dre/simple_python_process_monitor.git
+cd simple_python_process_monitor
+```
+
+2. Run it:
+**Windows**
+
+Open Comand Prompt (Admin):
+
+```
+python simple_python_process_monitor.py
+```
+
+**macOS / Linux**
+
+Run with sudo for best visibility:
+
+```
+sudo python3 simple_python_process_monitor.py
+```
+
+3. Stop the monitor anytime using:
+
+```
+CTRL + C
+```
+
+---
+
