@@ -36,6 +36,13 @@ For best results, run with Administrator/root permissions so the script can read
 
 ---
 
+## Files In This Project
+
+- `simple_process_monitor.py`
+- `README.md`
+
+---
+
 ## Usage
 
 1. Clone the repo:
@@ -90,3 +97,8 @@ Each suspicious entry adds a row containing:
 | memory_mb     | Memory usage (MB) |
 | reasons       | Why it was flagged (one or more rules) |
 
+---
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/coder0name0dre/simple_python_process_monitor/blob/main/LICENSE).
