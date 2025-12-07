@@ -70,3 +70,20 @@ CTRL + C
 
 ---
 
+## What Gets Logged?
+
+The script creates a file called:
+
+`suspicious_processes.csv`
+
+Each suspicious entry adds a row containing:
+
+**timestamp**:
+**pid**:
+**process_name**:
+**username**:
+**exe_path**:
+**cmdline**:
+**cpu_percent**:
+**memory_mb**:
+**reasons**:
