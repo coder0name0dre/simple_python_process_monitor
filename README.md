@@ -78,33 +78,15 @@ The script creates a file called:
 
 Each suspicious entry adds a row containing:
 
-**timestamp**:       When the scan was performed
-
-**pid**:             Process ID
-
-**process_name**:    Name of the executable
-
-**username**:        User that launched the process
-
-**exe_path**:        Full path to the executable
-
-**cmdline**:         Full command-line arguments
-
-**cpu_percent**:     CPU usage %
-
-**memory_mb**:       Memory usage in MB
-
-**reasons**:         Why it was flagged (one or more rules)
-
-| Column        | Meaning |
-|---------------|---------|
-| timestamp     | When the scan occurred |
+| Column        | Description |
+|---------------|-------------|
+| timestamp     | When the scan was performed |
 | pid           | Process ID |
-| process_name  | Executable name |
-| username      | User running the process |
+| process_name  | Name of the executable |
+| username      | User that launched the process |
 | exe_path      | Full path to the executable |
 | cmdline       | Full command-line arguments |
 | cpu_percent   | CPU usage (%) |
 | memory_mb     | Memory usage (MB) |
-| reasons       | What triggered the alert |
+| reasons       | Why it was flagged (one or more rules) |
 
