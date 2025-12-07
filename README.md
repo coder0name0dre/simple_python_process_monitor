@@ -95,3 +95,16 @@ Each suspicious entry adds a row containing:
 **memory_mb**:       Memory usage in MB
 
 **reasons**:         Why it was flagged (one or more rules)
+
+| Column        | Meaning |
+|---------------|---------|
+| timestamp     | When the scan occurred |
+| pid           | Process ID |
+| process_name  | Executable name |
+| username      | User running the process |
+| exe_path      | Full path to the executable |
+| cmdline       | Full command-line arguments |
+| cpu_percent   | CPU usage (%) |
+| memory_mb     | Memory usage (MB) |
+| reasons       | What triggered the alert |
+
